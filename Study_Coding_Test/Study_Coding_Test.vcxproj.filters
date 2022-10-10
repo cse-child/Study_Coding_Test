@@ -30,5 +30,26 @@
     <ClCompile Include="Programmers\정수_내림차순으로_배치하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HackerRank\Hash_Tables_Ransom_Note.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\문자열을_정수로_바꾸기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\x만큼_간격이_있는_n개의_숫자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\숫자_짝꿍.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\콜라츠_추측.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\나머지가_1이_되는_수_찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\두_정수_사이의_합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
