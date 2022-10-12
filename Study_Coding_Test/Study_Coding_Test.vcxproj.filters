@@ -51,5 +51,11 @@
     <ClCompile Include="Programmers\두_정수_사이의_합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HackerRank\Luck_Balance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HackerRank\Minimum_Absolute_Difference_in_an_Array.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
