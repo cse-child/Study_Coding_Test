@@ -29,6 +29,8 @@
     <ClCompile Include="HackerRank\Minimum_Absolute_Difference_in_an_Array.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="HackerRank\Repeated_String.cpp" />
+    <ClCompile Include="HackerRank\Sales_by_Match.cpp" />
     <ClCompile Include="Programmers\x만큼_간격이_있는_n개의_숫자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -60,6 +62,9 @@
     <ClCompile Include="Programmers\하샤드_수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
