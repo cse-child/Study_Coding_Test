@@ -19,18 +19,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HackerRank\A_Very_Big_Sum.cpp" />
+    <ClCompile Include="HackerRank\Birthday_Cake_Candles.cpp" />
+    <ClCompile Include="HackerRank\Compare_the_Triplets.cpp" />
     <ClCompile Include="HackerRank\Counting_Valleys.cpp" />
+    <ClCompile Include="HackerRank\Diagonal_Difference.cpp" />
+    <ClCompile Include="HackerRank\Grading_Students.cpp" />
     <ClCompile Include="HackerRank\Hash_Tables_Ransom_Note.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="HackerRank\Luck_Balance.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="HackerRank\Mini-Max_Sum.cpp" />
     <ClCompile Include="HackerRank\Minimum_Absolute_Difference_in_an_Array.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="HackerRank\Plus_Minus.cpp" />
     <ClCompile Include="HackerRank\Repeated_String.cpp" />
     <ClCompile Include="HackerRank\Sales_by_Match.cpp" />
+    <ClCompile Include="HackerRank\Simple_Array_Sum.cpp" />
+    <ClCompile Include="HackerRank\Staircase.cpp" />
+    <ClCompile Include="HackerRank\Time_Conversion.cpp" />
     <ClCompile Include="Programmers\x만큼_간격이_있는_n개의_숫자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
