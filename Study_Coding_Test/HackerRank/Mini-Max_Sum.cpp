@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
+
+using namespace std;
+
 void miniMaxSum(vector<int> arr) {
     long sum = 0;
     for (int num : arr)

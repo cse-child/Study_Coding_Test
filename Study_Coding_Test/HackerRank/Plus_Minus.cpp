@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
+
+using namespace std;
+
 void plusMinus(vector<int> arr) {
     float positive = 0;
     float negative = 0;

@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
+
+using namespace std;
+
 int diagonalDifference(vector<vector<int>> arr) {
     int diagonalSum1 = 0;
     int diagonalSum2 = 0;

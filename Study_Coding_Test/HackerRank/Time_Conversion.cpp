@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
+
+using namespace std;
+
 string timeConversion(string s) {
     int hour = stoi(s.substr(0, 2));
     string minSec = s.substr(2, 6);

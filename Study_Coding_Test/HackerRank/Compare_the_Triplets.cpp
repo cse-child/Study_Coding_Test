@@ -1,3 +1,11 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+#include <algorithm>
+
+using namespace std;
+
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
     vector<int> score;
     score.resize(2);
