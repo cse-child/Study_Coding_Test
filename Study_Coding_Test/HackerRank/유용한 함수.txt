@@ -1,0 +1,7 @@
+[ vector의 최대/최소 값 찾기 ]
+int value = *max_element(arr.begin(), arr.end());
+int value = *min_element(arr.begin(), arr.end());
+
+[ vector 정렬 ]
+내림차순 : sort(arr.begin(), arr.end(), greater<int>());
+오름차순 : sort(arr.begin(), arr.end(), less<int>());

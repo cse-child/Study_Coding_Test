@@ -102,6 +102,9 @@
     <ClCompile Include="HackerRank\Number_Line_Jumps.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HackerRank\Between_Two_Sets.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
@@ -110,5 +113,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="HackerRank\헤더파일들.txt" />
+    <Text Include="HackerRank\유용한 함수.txt" />
   </ItemGroup>
 </Project>
