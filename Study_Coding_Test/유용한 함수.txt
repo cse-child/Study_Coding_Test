@@ -1,0 +1,29 @@
+[ vector의 최대/최소 값 찾기 ]
+int value = *max_element(arr.begin(), arr.end());
+int value = *min_element(arr.begin(), arr.end());
+
+[ vector 정렬 ]
+내림차순 : sort(arr.begin(), arr.end(), greater<int>());
+// 오름차순이 기본이라 less 생략해도 됨
+오름차순 : sort(arr.begin(), arr.end(), less<int>());
+
+[ vector 특정 값 찾기 ]
+- 찾은 원소의 인덱스 반환
+int index = find(arr.begin(), arr.end(), 찾을값) - arr.begin();
+- 존재 유무 확인
+if(find(arr.begin(), arr.end(), 찾을값) == arr.end()) : 없음
+if(find(arr.begin(), arr.end(), 찾을값) != arr.end()) : 있음
+
+[ vector 특정 인덱스 지우기 ]
+arr.erase(arr.begin() + index);
+
+[ vector 요소의 전체 합 구하기 ]
+int num = accumulate(arr.begin(), arr.end(), 0);
+
+이때 마지막 0은 초기값이다. 
+만약 int형이 아닌 long long형의 전체 합을 구하고 싶다면 
+초기값을 0이 아닌 0LL을 넣어야
+오버플로우 발생이 일어나지 않는다. (오버플로우 에러도 안뜨고 쓰레기값 나옴)
+
+[ 헤더 파일 뭉탱이 선언 ]
+#include <bits/stdc++.h> : 표준 라이브러리 헤더파일을 한번에 선언하는 것
