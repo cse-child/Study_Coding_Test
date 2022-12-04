@@ -79,6 +79,7 @@
     <ClCompile Include="Programmers\x만큼_간격이_있는_n개의_숫자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\가운데_글자_가져오기.cpp" />
     <ClCompile Include="Programmers\같은_숫자는_싫어.cpp" />
     <ClCompile Include="Programmers\나누어_떨어지는_숫자_배열.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -92,12 +93,14 @@
     <ClCompile Include="Programmers\문자열_내_p와_y의_개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\문자열_내림차순으로_배치하기.cpp" />
     <ClCompile Include="Programmers\문자열을_정수로_바꾸기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\서울에서_김서방_찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\수박수박수박수박수박수.cpp" />
     <ClCompile Include="Programmers\숫자_짝꿍.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

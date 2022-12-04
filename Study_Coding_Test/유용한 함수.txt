@@ -7,6 +7,9 @@ int value = *min_element(arr.begin(), arr.end());
 // 오름차순이 기본이라 less 생략해도 됨
 오름차순 : sort(arr.begin(), arr.end(), less<int>());
 
+* arr.rbegin() : 끝에서 첫번째꺼
+arr.rend() : 맨끝 다음 빈칸
+
 [ vector 특정 값 찾기 ]
 - 찾은 원소의 인덱스 반환
 int index = find(arr.begin(), arr.end(), 찾을값) - arr.begin();
