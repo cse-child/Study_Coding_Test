@@ -124,6 +124,7 @@
     <ClCompile Include="Programmers\직사각형_별찍기.cpp" />
     <ClCompile Include="Programmers\최대공약수와_최소공배수.cpp" />
     <ClCompile Include="Programmers\최소직사각형.cpp" />
+    <ClCompile Include="Programmers\콜라_문제.cpp" />
     <ClCompile Include="Programmers\콜라츠_추측.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
