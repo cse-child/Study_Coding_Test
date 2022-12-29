@@ -177,6 +177,7 @@
     <ClCompile Include="Programmers\콜라츠_추측.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\크키가_작은_부분_문자열.cpp" />
     <ClCompile Include="Programmers\하샤드_수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
