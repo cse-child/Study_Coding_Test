@@ -76,6 +76,8 @@
     <ClCompile Include="HackerRank\Time_Conversion.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level1\과일_장수.cpp" />
+    <ClCompile Include="Programmers\Level1\숫자_문자열과_영단어.cpp" />
     <ClCompile Include="Programmers\Level2\최댓값과_최솟값.cpp" />
     <ClCompile Include="Programmers\Level1\삼총사.cpp" />
     <ClCompile Include="Programmers\Level1\x만큼_간격이_있는_n개의_숫자.cpp">
