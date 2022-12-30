@@ -30,3 +30,10 @@ int num = accumulate(arr.begin(), arr.end(), 0);
 
 [ 헤더 파일 뭉탱이 선언 ]
 #include <bits/stdc++.h> : 표준 라이브러리 헤더파일을 한번에 선언하는 것
+
+[ 특정 문자열을 기준으로 잘라 vector에 저장하기 ]
+#include <sstream> 추가
+stringstream ss(문자열 str);
+string temp; // 저장될 문자 단위?
+while(getline(ss, temp, ' ')) // 맨 마지막에 나눌 단위
+	vector.push_back(temp);

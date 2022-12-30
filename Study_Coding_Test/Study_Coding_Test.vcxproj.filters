@@ -15,40 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programmers\정수_제곱근_판별.cpp">
+    <ClCompile Include="Programmers\Level1\정수_제곱근_판별.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\자연수_뒤집어_배열로_만들기.cpp">
+    <ClCompile Include="Programmers\Level1\자연수_뒤집어_배열로_만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\문자열_내_p와_y의_개수.cpp">
+    <ClCompile Include="Programmers\Level1\문자열_내_p와_y의_개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\하샤드_수.cpp">
+    <ClCompile Include="Programmers\Level1\하샤드_수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\정수_내림차순으로_배치하기.cpp">
+    <ClCompile Include="Programmers\Level1\정수_내림차순으로_배치하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HackerRank\Hash_Tables_Ransom_Note.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\문자열을_정수로_바꾸기.cpp">
+    <ClCompile Include="Programmers\Level1\문자열을_정수로_바꾸기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\x만큼_간격이_있는_n개의_숫자.cpp">
+    <ClCompile Include="Programmers\Level1\x만큼_간격이_있는_n개의_숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\숫자_짝꿍.cpp">
+    <ClCompile Include="Programmers\Level1\숫자_짝꿍.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\콜라츠_추측.cpp">
+    <ClCompile Include="Programmers\Level1\콜라츠_추측.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\나머지가_1이_되는_수_찾기.cpp">
+    <ClCompile Include="Programmers\Level1\나머지가_1이_되는_수_찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\두_정수_사이의_합.cpp">
+    <ClCompile Include="Programmers\Level1\두_정수_사이의_합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="HackerRank\Luck_Balance.cpp">
@@ -105,88 +105,88 @@
     <ClCompile Include="HackerRank\Between_Two_Sets.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\서울에서_김서방_찾기.cpp">
+    <ClCompile Include="Programmers\Level1\서울에서_김서방_찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\핸드폰_번호_가리기.cpp">
+    <ClCompile Include="Programmers\Level1\핸드폰_번호_가리기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\나누어_떨어지는_숫자_배열.cpp">
+    <ClCompile Include="Programmers\Level1\나누어_떨어지는_숫자_배열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\제일_작은_수_제거하기.cpp">
+    <ClCompile Include="Programmers\Level1\제일_작은_수_제거하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\음양_더하기.cpp">
+    <ClCompile Include="Programmers\Level1\음양_더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\없는_숫자_더하기.cpp">
+    <ClCompile Include="Programmers\Level1\없는_숫자_더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\행렬의_덧셈.cpp">
+    <ClCompile Include="Programmers\Level1\행렬의_덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\직사각형_별찍기.cpp">
+    <ClCompile Include="Programmers\Level1\직사각형_별찍기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\최소직사각형.cpp">
+    <ClCompile Include="Programmers\Level1\최소직사각형.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\같은_숫자는_싫어.cpp">
+    <ClCompile Include="Programmers\Level1\같은_숫자는_싫어.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\최대공약수와_최소공배수.cpp">
+    <ClCompile Include="Programmers\Level1\최대공약수와_최소공배수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\신고_결과_받기.cpp">
+    <ClCompile Include="Programmers\Level1\신고_결과_받기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\가운데_글자_가져오기.cpp">
+    <ClCompile Include="Programmers\Level1\가운데_글자_가져오기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\수박수박수박수박수박수.cpp">
+    <ClCompile Include="Programmers\Level1\수박수박수박수박수박수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\문자열_내림차순으로_배치하기.cpp">
+    <ClCompile Include="Programmers\Level1\문자열_내림차순으로_배치하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\콜라_문제.cpp">
+    <ClCompile Include="Programmers\Level1\콜라_문제.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\내적.cpp">
+    <ClCompile Include="Programmers\Level1\내적.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\문자열_다루기_기본.cpp">
+    <ClCompile Include="Programmers\Level1\문자열_다루기_기본.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\부족한_금액_계산하기.cpp">
+    <ClCompile Include="Programmers\Level1\부족한_금액_계산하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\이상한_문자_만들기.cpp">
+    <ClCompile Include="Programmers\Level1\이상한_문자_만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\약수의_개수와_덧셈.cpp">
+    <ClCompile Include="Programmers\Level1\약수의_개수와_덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\예산.cpp">
+    <ClCompile Include="Programmers\Level1\예산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\시저_암호.cpp">
+    <ClCompile Include="Programmers\Level1\시저_암호.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\문자열_나누기.cpp">
+    <ClCompile Include="Programmers\Level1\문자열_나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\기사단원의_무기.cpp">
+    <ClCompile Include="Programmers\Level1\기사단원의_무기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\가장_가까운_같은_글자.cpp">
+    <ClCompile Include="Programmers\Level1\가장_가까운_같은_글자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\삼총사.cpp">
+    <ClCompile Include="Programmers\Level1\삼총사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\크키가_작은_부분_문자열.cpp">
+    <ClCompile Include="Programmers\Level1\크키가_작은_부분_문자열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\Level2\최댓값과_최솟값.cpp">
