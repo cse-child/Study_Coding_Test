@@ -1,14 +1,14 @@
 [ vector의 최대/최소 값 찾기 ]
-int value = *max_element(arr.begin(), arr.end());
-int value = *min_element(arr.begin(), arr.end());
+- int value = *max_element(arr.begin(), arr.end());
+- int value = *min_element(arr.begin(), arr.end());
 
 [ vector 정렬 ]
-내림차순 : sort(arr.begin(), arr.end(), greater<int>());
+- 내림차순 : sort(arr.begin(), arr.end(), greater<int>());
 // 오름차순이 기본이라 less 생략해도 됨
-오름차순 : sort(arr.begin(), arr.end(), less<int>());
+- 오름차순 : sort(arr.begin(), arr.end(), less<int>());
 
 * arr.rbegin() : 끝에서 첫번째꺼
-arr.rend() : 맨끝 다음 빈칸
+* arr.rend() : 맨끝 다음 빈칸
 
 [ vector 특정 값 찾기 ]
 - 찾은 원소의 인덱스 반환
@@ -18,10 +18,10 @@ if(find(arr.begin(), arr.end(), 찾을값) == arr.end()) : 없음
 if(find(arr.begin(), arr.end(), 찾을값) != arr.end()) : 있음
 
 [ vector 특정 인덱스 지우기 ]
-arr.erase(arr.begin() + index);
+- arr.erase(arr.begin() + index);
 
 [ vector 요소의 전체 합 구하기 ]
-int num = accumulate(arr.begin(), arr.end(), 0);
+- int num = accumulate(arr.begin(), arr.end(), 0);
 
 이때 마지막 0은 초기값이다. 
 만약 int형이 아닌 long long형의 전체 합을 구하고 싶다면 
@@ -37,3 +37,13 @@ stringstream ss(문자열 str);
 string temp; // 저장될 문자 단위?
 while(getline(ss, temp, ' ')) // 맨 마지막에 나눌 단위
 	vector.push_back(temp);
+
+[ 문자열 치환 방법 ]
+1. replace 사용
+- str.replace(0, 2, "st"); // 구간을 매개변수로 주고 치환문자를 준다
+2. regex_replace 사용
+- #include <regex> 추가
+- regex_replace(str, regex("바꿀문자열"), "사용할 문자");
+ex) string str = "aaa zzz";
+regex_replace(str, regex("a"), "z");
+-> str = "zzz zzz";
