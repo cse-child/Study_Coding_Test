@@ -1,3 +1,7 @@
+[단순 최대/최소 반환받기]
+- min(num1, num2)
+- max(num1, num2)
+
 [ vector의 최대/최소 값 찾기 ]
 - int value = *max_element(arr.begin(), arr.end());
 - int value = *min_element(arr.begin(), arr.end());
