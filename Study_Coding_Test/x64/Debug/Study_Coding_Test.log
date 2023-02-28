@@ -1,3 +1,2 @@
-﻿  대충_만든_자판.cpp
-c:\users\yum\visual studio project\study_coding_test\study_coding_test\programmers\level1\대충_만든_자판.cpp(14): warning C4244: '초기화 중': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Study_Coding_Test.vcxproj -> C:\Users\YUM\Visual Studio Project\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
+﻿  개인정보_수집_유효기간.cpp
+  Study_Coding_Test.vcxproj -> C:\Users\YUM\GithubUpload\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
