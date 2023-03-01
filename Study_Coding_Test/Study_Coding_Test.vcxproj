@@ -115,6 +115,7 @@
     <ClCompile Include="Programmers\Level2\JadenCase_문자열_만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\n^2_배열_자르기.cpp" />
     <ClCompile Include="Programmers\Level2\올바른_괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
