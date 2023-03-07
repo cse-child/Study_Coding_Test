@@ -95,6 +95,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\Level1\3진법_뒤집기.cpp" />
+    <ClCompile Include="Programmers\Level1\K번째수.cpp" />
     <ClCompile Include="Programmers\Level1\[1차]_비밀지도.cpp" />
     <ClCompile Include="Programmers\Level1\개인정보_수집_유효기간.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -121,6 +122,7 @@
     <ClCompile Include="Programmers\Level2\n^2_배열_자르기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\가장_큰_수.cpp" />
     <ClCompile Include="Programmers\Level2\올바른_괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -1,3 +1,2 @@
-﻿  문자열_내_마음대로_정렬하기.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
-C:\Users\USER\Programming\Git\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  가장_큰_수.cpp
+  Study_Coding_Test.vcxproj -> C:\Users\YUM\GithubUpload\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
