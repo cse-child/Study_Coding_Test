@@ -112,6 +112,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\Level1\문자열_내_마음대로_정렬하기.cpp" />
+    <ClCompile Include="Programmers\Level1\문제1.cpp" />
+    <ClCompile Include="Programmers\Level2\못품\숫자_변환하기.cpp" />
     <ClCompile Include="Programmers\Level1\숫자_문자열과_영단어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

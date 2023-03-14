@@ -264,10 +264,16 @@
     <ClCompile Include="Programmers\Level1\완주하지_못한_선수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\전화번호_목록.cpp">
+    <ClCompile Include="Programmers\Level1\문제1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\못품\숫자_변환하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\Level2\위장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\전화번호_목록.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
