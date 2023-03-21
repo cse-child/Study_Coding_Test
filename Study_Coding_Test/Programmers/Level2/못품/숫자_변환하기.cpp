@@ -21,7 +21,7 @@ int solution(int x, int y, int n) {
 	return answer;
 }
 
-int main()
-{
-	solution(10, 40, 5);
-}
+//int main()
+//{
+//	solution(10, 40, 5);
+//}
