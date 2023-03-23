@@ -1,1 +1,13 @@
-﻿  Study_Coding_Test.vcxproj -> C:\Users\YUM\GithubUpload\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
+﻿  기능개발.cpp
+c:\users\user\programming\git\study_coding_test\study_coding_test\programmers\level2\기능개발.cpp(22): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+c:\users\user\programming\git\study_coding_test\study_coding_test\programmers\level2\기능개발.cpp(26): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\programming\git\study_coding_test\study_coding_test\programmers\level2\기능개발.cpp(31): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+  Study_Coding_Test.vcxproj -> C:\Users\USER\Programming\Git\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
