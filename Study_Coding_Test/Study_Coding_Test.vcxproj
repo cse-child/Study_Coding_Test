@@ -116,7 +116,7 @@
     <ClCompile Include="Programmers\Level1\체육복.cpp" />
     <ClCompile Include="Programmers\Level2\H-Index.cpp" />
     <ClCompile Include="Programmers\Level2\기능개발.cpp" />
-    <ClCompile Include="Programmers\Level2\못품\게임_맵_최단거리.cpp" />
+    <ClCompile Include="Programmers\Level2\게임_맵_최단거리.cpp" />
     <ClCompile Include="Programmers\Level2\못품\숫자_변환하기.cpp" />
     <ClCompile Include="Programmers\Level1\숫자_문자열과_영단어.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
