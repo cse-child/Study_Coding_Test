@@ -133,7 +133,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Programmers\Level2\가장_큰_수.cpp" />
-    <ClCompile Include="Programmers\Level2\못품\카펫.cpp" />
+    <ClCompile Include="Programmers\Level2\카펫.cpp" />
     <ClCompile Include="Programmers\Level2\올바른_괄호.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
