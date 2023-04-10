@@ -1,6 +1,8 @@
 #include <string>
 #include <vector>
 #include <iostream>
+// best 풀이 너무 간단한데 이해가안됨
+
 #include <algorithm>
 #include <cmath>
 

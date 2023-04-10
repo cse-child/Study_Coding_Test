@@ -297,6 +297,18 @@
     <ClCompile Include="Programmers\Level2\카펫.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Priority_Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\더_맵게.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\이중우선순위큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\디스크_컨트롤러.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
