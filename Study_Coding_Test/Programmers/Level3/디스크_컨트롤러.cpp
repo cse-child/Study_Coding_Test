@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <iostream>
+#include <queue>
 #include <string>
 #include <vector>
 
@@ -36,6 +37,16 @@ int solution(vector<vector<int>> jobs) {
 	//	cout << job[0] << " ";
 	//cout << endl;
 
+	/*
+	jobs 배열을 요청시간 기준으로 오름차순으로 정렬하기
+	저는 요청시간으로 정렬하고 만약 같다면 소요시간을 기준으로 정렬 시켰습니다.
+
+	테스크 처리 도중에 들어온 테스크들은 요청시간과 상관없이 소요시간 기준으로 정렬시키는겁니다. (PriorityQueue 로 Comparable 구현해서 소요시간 비교함)
+	(만약 3ms에 테스크가 끝난다면 3ms에 들어오는 테스크도 포함)
+
+	테스크 처리 도중이 아닌 경우에는 그냥 처리하시면됩니다.(이미 jobs 배열을 정렬했으니까)
+	 */
+
 	sort(jobs.begin(), jobs.end(), StartTimeCompare);
 
 	for(vector<int> job : jobs)
@@ -55,11 +66,6 @@ int main()
 }
 
 
-/*
-#include <string>
-#include <bits/stdc++.h>
-
-using namespace std;
 
 struct cmp {
 	bool operator()(vector<int> a, vector<int> b) {
@@ -69,7 +75,7 @@ struct cmp {
 
 int solution(vector<vector<int>> jobs) {
 	int answer = 0, n = 0, used = 0;
-	priority_queue <vector<int>, vector<vector<int>>, cmp> heap;
+	priority_queue<vector<int>, vector<vector<int>>, cmp> heap;
 	vector<bool> check(jobs.size(), true);
 
 	while (used < jobs.size()) {
@@ -89,8 +95,6 @@ int solution(vector<vector<int>> jobs) {
 	}
 	return answer / jobs.size();
 }
-
-
 
 
  */
