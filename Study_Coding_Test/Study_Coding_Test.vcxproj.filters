@@ -309,6 +309,12 @@
     <ClCompile Include="Programmers\Level3\디스크_컨트롤러.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\프로세스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\큰_수_만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">

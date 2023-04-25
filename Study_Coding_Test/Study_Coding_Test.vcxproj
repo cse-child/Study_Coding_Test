@@ -141,7 +141,9 @@
     <ClCompile Include="Programmers\Level2\게임_맵_최단거리.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\더_맵게.cpp" />
+    <ClCompile Include="Programmers\Level2\더_맵게.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Programmers\Level2\못품\숫자_변환하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -298,11 +300,19 @@
     <ClCompile Include="Programmers\Level2\최솟값_만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\큰_수_만들기.cpp" />
     <ClCompile Include="Programmers\Level2\타겟_넘버.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level3\디스크_컨트롤러.cpp" />
-    <ClCompile Include="Programmers\Level3\이중우선순위큐.cpp" />
+    <ClCompile Include="Programmers\Level2\프로세스.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\디스크_컨트롤러.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\이중우선순위큐.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Framework.h" />
