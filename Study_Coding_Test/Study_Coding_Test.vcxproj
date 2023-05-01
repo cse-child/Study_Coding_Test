@@ -168,7 +168,10 @@
     <ClCompile Include="Programmers\Level2\가장_큰_수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\조이스틱.cpp" />
+    <ClCompile Include="Programmers\Level2\못품\조이스틱.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\소수_찾기.cpp" />
     <ClCompile Include="Programmers\Level2\카펫.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
