@@ -2,26 +2,39 @@
 #include <string>
 #include <vector>
 #include <set>
+#include <cmath>
+#include <algorithm>
 
 using namespace std;
 
-void DFS(string numbers, int index)
+bool IsPrime(int n)
 {
-	
+	if (n <= 1) return false;
+
+	for (int i = 2; i <= sqrt(n); i++)
+	{
+		if (n % i == 0)
+			return false;
+	}
+	return true;
 }
 
-set<int> nums;
+
 int solution(string numbers) {
-	DFS(numbers, 0);
+	set<int> nums;
 
-	
+	sort(numbers.begin(), numbers.end());
 
+	do
+	{
+		string temp = "";
+		for (char num : numbers)
+		{
+			temp += num;
+			if (IsPrime(stoi(temp)))
+				nums.insert(stoi(temp));
+		}
+	} while (next_permutation(numbers.begin(), numbers.end()));
 
-	return 0;
-}
-
-int main()
-{
-	string s = "01";
-	cout << stoi(s) << endl;;
+	return nums.size();
 }
