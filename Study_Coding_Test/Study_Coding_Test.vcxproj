@@ -180,6 +180,7 @@
     <ClCompile Include="Programmers\Level2\소수_찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\숫자의_표현.cpp" />
     <ClCompile Include="Programmers\Level2\이진_변환_반복하기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
