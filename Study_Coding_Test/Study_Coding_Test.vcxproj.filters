@@ -342,6 +342,15 @@
     <ClCompile Include="Programmers\Level3\입국심사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_PriorityQueue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="practice_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
