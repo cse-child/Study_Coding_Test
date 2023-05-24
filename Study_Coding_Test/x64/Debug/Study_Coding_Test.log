@@ -1,5 +1,2 @@
-﻿  진법_변환.cpp
-c:\users\yum\githubupload\study_coding_test\study_coding_test\backjoon\브론즈\진법_변환.cpp(18): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yum\githubupload\study_coding_test\study_coding_test\backjoon\브론즈\진법_변환.cpp(21): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\yum\githubupload\study_coding_test\study_coding_test\backjoon\브론즈\진법_변환.cpp(23): warning C4244: '+=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  진법_변환_2.cpp
   Study_Coding_Test.vcxproj -> C:\Users\YUM\GithubUpload\Study_Coding_Test\x64\Debug\Study_Coding_Test.exe
