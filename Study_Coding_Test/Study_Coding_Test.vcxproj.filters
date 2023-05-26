@@ -351,28 +351,40 @@
     <ClCompile Include="practice_03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\꼬마_정민.cpp">
+    <ClCompile Include="Backjoon\브론즈\2903_중앙_이동_알고리즘.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\세로읽기.cpp">
+    <ClCompile Include="Backjoon\브론즈\2738_행렬_덧셈.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\최댓값.cpp">
+    <ClCompile Include="Backjoon\브론즈\2566_최댓값.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\행렬_덧셈.cpp">
+    <ClCompile Include="Backjoon\브론즈\10798_세로읽기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\실버\색종이.cpp">
+    <ClCompile Include="Backjoon\실버\2563_색종이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\진법_변환.cpp">
+    <ClCompile Include="Backjoon\브론즈\2745_진법_변환.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\진법_변환_2.cpp">
+    <ClCompile Include="Backjoon\브론즈\11005_진법_변환_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\세탁소_사장_동혁.cpp">
+    <ClCompile Include="Backjoon\브론즈\2720_세탁소_사장_동혁.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\11382_꼬마_정민.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\8393_합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\25304_영수증.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\25314_코딩은_체육과목_입니다.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -387,5 +399,6 @@
   <ItemGroup>
     <Text Include="HackerRank\헤더파일들.txt" />
     <Text Include="유용한 함수.txt" />
+    <Text Include="Backjoon\Frame.txt" />
   </ItemGroup>
 </Project>
