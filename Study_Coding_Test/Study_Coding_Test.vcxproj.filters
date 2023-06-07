@@ -411,6 +411,12 @@
     <ClCompile Include="Backjoon\브론즈\2581_소수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\1085_직사각형에서_탈출.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\3009_네_번째_점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
