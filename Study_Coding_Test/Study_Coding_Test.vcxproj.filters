@@ -348,6 +348,9 @@
     <ClCompile Include="Dijkstra_PriorityQueue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="practice_03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="Backjoon\브론즈\2903_중앙_이동_알고리즘.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -412,9 +415,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\브론즈\3009_네_번째_점.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Backjoon\브론즈\11653_소인수분해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
