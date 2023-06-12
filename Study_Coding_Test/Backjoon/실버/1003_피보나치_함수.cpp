@@ -41,13 +41,25 @@ int main()
 	// 0이 출력되는 횟수는 1에서부터 피보나치 수열 그대로가 출력됨
 	// 즉, 0은 Fibonacci(N-1)을 출력하고, 1은 Fibonacci(N)을 출력함
 
-	for(int num : nums)
+	/* 재귀함수 버전 */
+	//for(int num : nums)
+	//{
+	//	if (num == 0)
+	//		cout << "1 0\n";
+	//	else
+	//		cout << fibonacci(num - 1) << " " << fibonacci(num) << "\n";
+	//}
+
+	/* for문 버전 */
+	for (int i = 3; i < 41; i++)
+		fib[i] = fib[i - 1] + fib[i - 2];
+
+	for (int num : nums)
 	{
 		if (num == 0)
 			cout << "1 0\n";
 		else
-			cout << fibonacci(num - 1) << " " << fibonacci(num) << "\n";
+			cout << fib[num - 1] << " " << fib[num] << "\n";
 	}
-
 	return 0;
 }

@@ -432,6 +432,12 @@
     <ClCompile Include="Backjoon\실버\1003_피보나치_함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\5073_삼각형과_세_변.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\2579_계단_오르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
