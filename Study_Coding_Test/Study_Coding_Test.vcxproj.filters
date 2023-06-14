@@ -444,6 +444,9 @@
     <ClCompile Include="Backjoon\실버\1463_1로_만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\24262_알고리즘_수업_알고리즘의_수행_시간_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">

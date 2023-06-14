@@ -43,6 +43,7 @@
     <ClCompile Include="Backjoon\브론즈\1978_소수_찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\24262_알고리즘_수업_알고리즘의_수행_시간_1.cpp" />
     <ClCompile Include="Backjoon\브론즈\24416_알고리즘_수업_피보나치_수_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
