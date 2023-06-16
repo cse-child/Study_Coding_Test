@@ -1,0 +1,60 @@
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <cmath>
+#include <queue>
+
+using namespace std;
+
+struct Node
+{
+	int x;
+	int y;
+	int cnt;
+};
+
+int main()
+{
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+
+	int N, M;
+	cin >> N >> M;
+
+	vector<vector<char>> maze(N, vector<char>(M));
+	for(int i = 0; i < N; i++)
+		for(int j = 0; j < M; j++)
+			cin >> maze[i][j];
+
+	bool check[101][101];
+	queue<Node> queue;
+	queue.push({1,1,1});
+	check[1][1] = false;
+
+	int moveX[4] = {0,0,-1,1};
+	int moveY[4] = {-1,1,0,0};
+	while(!queue.empty())
+	{
+		for(int i = 0; i < 4; i++)
+		{
+			Node node = { queue.front().x + moveX[i], queue.front().y + moveY[i], queue.front().cnt + 1 };
+		
+			if (node.x < 0 || node.x >= maze[0].size() || node.y < 0 || node.y >= maze.size()) continue;
+			if (maze[node.y][node.x] == '0') continue;
+			if (!check[node.x][node.y]) continue;
+
+			if (node.x == maze[0].size() - 1 && node.y == maze.size() - 1)
+			{
+				cout << node.cnt;
+				return 0;
+			}
+
+			queue.push(node);
+			check[node.x][node.y] = false;
+		}
+		queue.pop();
+	}
+
+	return 0;
+}
