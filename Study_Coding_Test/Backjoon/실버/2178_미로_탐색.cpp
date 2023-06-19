@@ -14,6 +14,8 @@ struct Node
 	int cnt;
 };
 
+bool check[101][101];
+
 int main()
 {
 	ios_base::sync_with_stdio(0);
@@ -27,10 +29,9 @@ int main()
 		for(int j = 0; j < M; j++)
 			cin >> maze[i][j];
 
-	bool check[101][101];
 	queue<Node> queue;
-	queue.push({1,1,1});
-	check[1][1] = false;
+	queue.push({0,0,1});
+	check[0][0] = true;
 
 	int moveX[4] = {0,0,-1,1};
 	int moveY[4] = {-1,1,0,0};
@@ -40,18 +41,18 @@ int main()
 		{
 			Node node = { queue.front().x + moveX[i], queue.front().y + moveY[i], queue.front().cnt + 1 };
 		
-			if (node.x < 0 || node.x >= maze[0].size() || node.y < 0 || node.y >= maze.size()) continue;
-			if (maze[node.y][node.x] == '0') continue;
-			if (!check[node.x][node.y]) continue;
+			if (node.x < 0 || node.x >= N || node.y < 0 || node.y >= M) continue;
+			if (maze[node.x][node.y] == '0') continue;
+			if (check[node.x][node.y]) continue;
 
-			if (node.x == maze[0].size() - 1 && node.y == maze.size() - 1)
+			if (node.x == N - 1 && node.y == M - 1)
 			{
 				cout << node.cnt;
 				return 0;
 			}
 
 			queue.push(node);
-			check[node.x][node.y] = false;
+			check[node.x][node.y] = true;
 		}
 		queue.pop();
 	}

@@ -459,7 +459,19 @@
     <ClCompile Include="Backjoon\실버\1149_RGB거리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\2798_블랙잭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\2231_분해합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\19532_수학은_비대면강의입니다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="Backjoon\실버\2178_미로_탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\1018_체스판_다시_칠하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
