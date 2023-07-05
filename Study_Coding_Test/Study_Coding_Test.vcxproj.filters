@@ -564,6 +564,21 @@
     <ClCompile Include="Backjoon\실버\18870_좌표_압축.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\실버\14425_문자열_집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\7785_회사에_있는_사람.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\10816_숫자_카드_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\2630_색종이_만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\1992_쿼드트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
