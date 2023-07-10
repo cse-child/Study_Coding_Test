@@ -579,6 +579,18 @@
     <ClCompile Include="Backjoon\실버\1992_쿼드트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\실버\1620_나는야_포켓몬_마스터_이다솜.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\1764_듣보잡.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\1269_대칭_차집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\골드\2580_스도쿠.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
