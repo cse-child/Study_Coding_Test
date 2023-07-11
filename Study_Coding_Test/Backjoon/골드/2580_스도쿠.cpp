@@ -1,94 +1,80 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
-#include <vector>
-#include <cmath>
 
 #define SIZE 9
 
 using namespace std;
 
-int puzzle[SIZE][SIZE];
-bool check[SIZE+1][SIZE+1];
+int puzzle[10][10];
+int row[10][10];
+int col[10][10];
+int square[10][10];
 
-bool CheckPuzzle(int x, int y)
+int SquareNum(int x, int y)
 {
-	int xNum[10];
-	int yNum[10];
-	for(int i = 0; i < SIZE; i++)
-	{
-		xNum[puzzle[x][i]]++;
-		yNum[puzzle[i][y]]++;
-	}
-
-	for(int i = 1; i < 10; i++)
-	{
-		if (xNum[i] > 1 || yNum[i] > 1)
-			return false;
-	}
-
-	return true;
+	return (x / 3) * 3 + (y / 3);
 }
 
-void DFS(int depth)
+bool DFS(int num)
 {
-	if(depth == SIZE)
+	if(num == SIZE*SIZE)
 	{
 		for (int i = 0; i < SIZE; i++)
 		{
 			for (int j = 0; j < SIZE; j++)
 				cout << puzzle[i][j] << ' ';
-			cout << '\n';			
+			cout << '\n';
 		}
-		return;
+		return true;
 	}
 
-	for(int i = 0; i < SIZE; i++)
-	{
-		if(puzzle[depth][i] == 0)
-		{
-			for(int j = 1; j < SIZE+1; j++)
-			{
-				puzzle[depth][i] = j;
+	int x = num / SIZE;
+	int y = num % SIZE;
 
+	if (puzzle[x][y] != 0)
+		return DFS(num + 1);
+	else
+	{
+		for(int i = 1; i <= SIZE; i++)
+		{
+			if(!row[x][i] && !col[y][i] && !square[SquareNum(x,y)][i])
+			{
+				row[x][i] = true;
+				col[y][i] = true;
+				square[SquareNum(x, y)][i] = true;
+				puzzle[x][y] = i;
+
+				if (DFS(num + 1))
+					return true;
+
+				row[x][i] = false;
+				col[y][i] = false;
+				square[SquareNum(x, y)][i] = false;
+				puzzle[x][y] = 0;
 			}
 		}
 	}
-
-
-	//for(int i = 0; i < SIZE; i++)
-	//{
-	//	if(puzzle[depth][i] == 0)
-	//	{
-	//		for(int j = 1; j < SIZE+1; j++)
-	//		{
-	//			if(!check[depth][j])
-	//			{
-	//				check[depth][j] = true;
-	//				puzzle[depth][i] = j;
-	//			}
-	//		}
-	//		DFS(depth + 1);
-	//		//check[depth][j] = false;
-	//	}
-	//}
+	return false;
 }
 
 int main()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-	for (int i = 0; i < 9; i++)
+	for (int i = 0; i < SIZE; i++)
 	{
-		for (int j = 0; j < 9; j++)
+		for (int j = 0; j < SIZE; j++)
 		{
 			cin >> puzzle[i][j];
 			if (puzzle[i][j] != 0)
-				check[i][puzzle[i][j]] = true;
+			{
+				row[i][puzzle[i][j]] = true;
+				col[j][puzzle[i][j]] = true;
+				square[SquareNum(i,j)][puzzle[i][j]] = true;
+			}
 		}
 	}
 
-	cout << endl << endl;
 	DFS(0);
 
 	return 0;
