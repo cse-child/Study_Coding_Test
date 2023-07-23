@@ -660,7 +660,10 @@
     <ClCompile Include="Backjoon\실버\11053_가장_긴_증가하는_부분_수열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\골드\11054_가장_긴_바이토닉_부분_수열.cpp">
+    <ClCompile Include="Backjoon\미완성\11054_가장_긴_바이토닉_부분_수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\실버\2108_통계학.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
