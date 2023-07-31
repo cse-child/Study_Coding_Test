@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
 #include <vector>
-#include <cmath>
 
 using namespace std;
 
@@ -13,31 +11,32 @@ int main()
 	string str;
 	cin >> str;
 
-	vector<int> num;
-	vector<char> oper;
 	string numStr = "";
-	for (int i = 0; i < str.size(); i++)
+	int result = 0;
+	bool isMinus = false;
+	for (int i = 0; i <= str.size(); i++)
 	{
-		if (str[i] == '-' || str[i] == '+')
+		if (str[i] == '-' || str[i] == '+' || i == str.size())
 		{
-			num.push_back(stoi(numStr));
-			oper.push_back(str[i]);
-			numStr = "";
+			if (isMinus)
+			{
+				result -= stoi(numStr);
+				numStr = "";
+			}
+			else
+			{
+				result += stoi(numStr);
+				numStr = "";
+			}
 		}
-		else
+		else // 숫자라면 누적 더하기
 			numStr += str[i];
-	}
-	num.push_back(stoi(numStr));
-	
-	for(int i = 0; i < oper.size(); i++)
-	{
-		if(oper[i] == '-')
-		{
-			
-		}
+
+		if (str[i] == '-')
+			isMinus = true;
 	}
 
-	int i = 0;
+	cout << result;
 
 	return 0;
 }
