@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
 #include <vector>
-#include <cmath>
 #include <queue>
 
 using namespace std;
@@ -17,34 +15,34 @@ int main()
 	{
 		int N, M;
 		cin >> N >> M;
-		vector<int> Importance(N);
-		queue<int> que;
-		for (int& i : Importance)
+		queue<pair<int,int>> que;
+		priority_queue<int> importance;
+		for(int i = 0; i < N; i++)
 		{
-			cin >> i;
-			que.push(i);
+			int impo;
+			cin >> impo;
+			que.push({ i, impo });
+			importance.push(impo);
 		}
 
 		int cnt = 0;
-		while(true)
+		while(!que.empty())
 		{
-			int MaxIdx = max_element(Importance.begin(), Importance.end()) - Importance.begin();
-			
-			while (que.front() != Importance[MaxIdx])
+			int idx = que.front().first;
+			int impo = que.front().second;
+			que.pop();
+			if (importance.top() == impo)
 			{
-				que.push(que.front());
-				que.pop();
+				cnt++;
+				importance.pop();
+				if (idx == M)
+				{
+					cout << cnt << '\n';
+					break;
+				}
 			}
-
-			que.pop(); // ÀÎ¼â
-			cnt++;
-			Importance[MaxIdx] = 0;
-
-			if (MaxIdx == M)
-			{
-				cout << cnt << '\n';
-				break;
-			}
+			else
+				que.push({ idx, impo });
 		}
 	}
 
