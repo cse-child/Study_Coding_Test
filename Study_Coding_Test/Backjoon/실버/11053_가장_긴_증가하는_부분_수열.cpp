@@ -18,6 +18,7 @@ int main()
 	int dp[1001];
 	//fill(begin(dp), end(dp), 1); // memset은 0또는 -1로만 초기화 가능, 다른 숫자는 비트값으로 들어감
 
+	// 시간복잡도: O(n^2)
 	for (int i = 0; i < S; i++)
 	{
 		dp[i] = 1;
