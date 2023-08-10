@@ -723,7 +723,10 @@
     <ClCompile Include="Backjoon\골드\12015_가장_긴_증가하는_부분_수열_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\정리\11659_구간_합_구하기_4.cpp">
+    <ClCompile Include="Backjoon\실버\11659_구간_합_구하기_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\네트워크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
