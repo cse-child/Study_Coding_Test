@@ -1,35 +1,42 @@
 #include <iostream>
 #include <string>
-#include <algorithm>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
+
+int N, M;
+int arr[9];
+
+void DFS(vector<int>& nums, int num, int start)
+{
+	if (num == M)
+	{
+		for (int i = 0; i < M; i++)
+			cout << arr[i] << ' ';
+		cout << '\n';
+		return;
+	}
+
+	for (int i = start; i < N; i++)
+	{
+		arr[num] = nums[i];
+		DFS(nums, num + 1, i + 1);
+	}
+}
 
 int main()
 {
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-	int N, K;
-	cin >> N >> K;
+	cin >> N >> M;
+	vector<int> nums(N);
+	for (int& num : nums)
+		cin >> num;
 
-	vector<int> Weights(N+1);
-	vector<int> Values(N+1);
-	for(int i = 1; i <= N; i++)
-		cin >> Weights[i] >> Values[i];
+	sort(nums.begin(), nums.end());
 
-	vector<vector<int>> dp(N + 1, vector<int>(K + 1));
-	for(int i = 1; i <= N; i++)
-	{
-		for (int j = 1; j <= K; j++)
-		{
-			if (j >= Weights[i]) // ¡Ú »©¸ÔÁö¸»ÀÚ!!!!!
-				dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - Weights[i]] + Values[i]);
-			else
-				dp[i][j] = dp[i - 1][j];
-		}
-	}
-
-	cout << dp[N][K];
+	DFS(nums, 0, 0);
 
 	return 0;
 }
