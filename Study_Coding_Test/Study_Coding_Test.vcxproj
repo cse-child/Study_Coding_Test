@@ -28,7 +28,7 @@
     <ClCompile Include="Backjoon\골드\12865_평범한_배낭.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Backjoon\골드\14891_톱니바퀴.cpp" />
+    <ClCompile Include="Backjoon\미완성\14891_톱니바퀴.cpp" />
     <ClCompile Include="Backjoon\골드\2293_동전_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

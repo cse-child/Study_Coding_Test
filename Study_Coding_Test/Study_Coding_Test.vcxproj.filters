@@ -735,7 +735,7 @@
     <ClCompile Include="Backjoon\실버\15654_N과_M_(5).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Backjoon\골드\14891_톱니바퀴.cpp">
+    <ClCompile Include="Backjoon\미완성\14891_톱니바퀴.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
