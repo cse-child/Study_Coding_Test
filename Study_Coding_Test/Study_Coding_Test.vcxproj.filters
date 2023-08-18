@@ -741,6 +741,9 @@
     <ClCompile Include="Backjoon\실버\15655_N과_M_%286%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Backjoon\골드\2206_벽_부수고_이동하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
