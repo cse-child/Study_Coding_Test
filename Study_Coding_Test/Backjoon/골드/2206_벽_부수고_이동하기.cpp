@@ -1,57 +1,55 @@
 #include <iostream>
+#include <queue>
 #include <string>
-#include <algorithm>
-#include <vector>
-#include <cmath>
+#include <tuple>
 
 using namespace std;
 
 int N, M;
-char map[1001][1001];
-bool visit[1001][1001];
+int map[1001][1001];
+int dist[1001][1001][2];
+int cnt;
 
-int cnt = 1;
-int minCnt = 1001;
-
-void DFS(int x, int y, bool crash)
+int BFS()
 {
-	if(x == N && y == M)
+	queue<tuple<int, int, int>> que;
+	que.push({ 1,1,1 });
+	dist[1][1][1] = 1;
+
+	while (!que.empty())
 	{
-		if (minCnt > cnt)
-			minCnt = cnt;
-		return;
-	}
+		int x = get<0>(que.front());
+		int y = get<1>(que.front());
+		int crash = get<2>(que.front());
+		que.pop();
 
-	int moveX[4] = { 0, 0, -1, 1 };
-	int moveY[4] = { -1, 1, 0, 0 };
-	for(int i = 0; i < 4; i++)
-	{
-		int mx = x + moveX[i];
-		int my = y + moveY[i];
+		if (x == N && y == M)
+			return dist[x][y][crash];
 
-		if (mx < 1 || my < 1 || mx > N || my > M) continue;
-		if (visit[mx][my]) continue;
-		if (crash && map[mx][my] == '1') continue;
-
-		if (!crash && map[mx][my] == '1') // 벽을 부수고 감
+		int moveX[4] = { 0, 0, -1, 1 };
+		int moveY[4] = { -1, 1, 0, 0 };
+		for (int i = 0; i < 4; i++)
 		{
-			crash = true;
-			visit[mx][my] = true;
-			cnt++;
-			DFS(mx, my, crash);
-			crash = false;
-			visit[mx][my] = false;
-			cnt--;
-		}
-		else
-		{
-			visit[mx][my] = true;
-			cnt++;
-			DFS(mx, my, crash);
-			visit[mx][my] = false;
-			cnt--;
+			int mx = x + moveX[i];
+			int my = y + moveY[i];
+
+			if (mx < 1 || my < 1 || mx > N || my > M) continue;
+
+			// 막힌 길을 부수는 경우
+			if (map[mx][my] == 1 && crash == 1)
+			{
+				dist[mx][my][crash - 1] = dist[x][y][crash] + 1;
+				que.push({ mx, my, crash - 1 });
+			}
+			// 뚫린길을 부수지 않고 가는 경우
+			else if (map[mx][my] == 0 && dist[mx][my][crash] == 0)
+			{
+				dist[mx][my][crash] = dist[x][y][crash] + 1;
+				que.push({ mx,my,crash });
+			}
 		}
 	}
+	return -1;
 }
 
 int main()
@@ -70,13 +68,7 @@ int main()
 		}
 	}
 
-	visit[1][1] = true;
-	DFS(1, 1, false);
-
-	if (minCnt == 1)
-		cout << "-1";
-	else
-		cout << minCnt + 1;
+	cout << BFS();
 
 	return 0;
 }
