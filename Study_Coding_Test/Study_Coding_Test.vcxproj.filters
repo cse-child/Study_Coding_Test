@@ -744,7 +744,10 @@
     <ClCompile Include="Backjoon\골드\2206_벽_부수고_이동하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\testFile.cpp">
+    <ClCompile Include="NoUpload\prac_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\prac_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
