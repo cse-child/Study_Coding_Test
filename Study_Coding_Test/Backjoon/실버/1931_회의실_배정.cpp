@@ -2,6 +2,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -17,17 +18,16 @@ int main()
 
 	sort(times.begin(), times.end());
 
-	int cnt = 1;
 	int end = times[0].first;
+	int result = 1;
 	for(int i = 1; i < N; i++)
 	{
-		if (end <= times[i].second)
+		if(end <= times[i].second)
 		{
-			cnt++;
+			result++;
 			end = times[i].first;
 		}
 	}
-	cout << cnt;
-
+	cout << result;
 	return 0;
 }
