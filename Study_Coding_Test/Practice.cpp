@@ -7,6 +7,7 @@ using namespace std;
 
 int N, M;
 int arr[9];
+bool check[9];
 
 void DFS(vector<int>& nums, int num, int start)
 {
@@ -20,8 +21,11 @@ void DFS(vector<int>& nums, int num, int start)
 
 	for (int i = start; i < N; i++)
 	{
-		arr[num] = nums[i];
-		DFS(nums, num + 1, i + 1);
+		if(!check)
+		{
+			arr[num] = nums[i];
+			DFS(nums, num + 1, i + 1);
+		}
 	}
 }
 
