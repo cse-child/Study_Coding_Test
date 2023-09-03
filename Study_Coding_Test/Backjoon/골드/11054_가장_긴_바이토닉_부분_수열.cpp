@@ -16,6 +16,7 @@ int main()
 	for (int& a : A)
 		cin >> a;
 
+	
 
 
 
