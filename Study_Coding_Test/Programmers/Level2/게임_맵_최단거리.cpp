@@ -1,7 +1,15 @@
-#include <vector>
+#include<vector>
+#include <algorithm>
+#include <iostream>
 #include <queue>
 
+#define MAX 100000000
 using namespace std;
+
+vector<vector<int>> Maps;
+bool visit[101][101];
+
+int result = MAX;
 
 struct Node
 {
@@ -10,45 +18,50 @@ struct Node
 	int cnt;
 };
 
-int solution(vector<vector<int>> maps)
+void BFS(Node node)
 {
-	bool visit[100][100] = { false };
 	queue<Node> que;
+	que.push(node);
 
-	visit[0][0] = true;
-	que.push({ 0,0,1 });
-
-	// ╩С : {0, -1}
-	// го : {0, 1}
-	// аб : {-1, 0}
-	// ©Л : {1, 0}
-	vector<int> visitX = { 0,0,-1,1 };
-	vector<int> visitY = { -1,1,0,0 };
+	int moveX[4] = { -1, 1, 0, 0 };
+	int moveY[4] = { 0, 0, -1, 1 };
 	while (!que.empty())
 	{
-		for (int i = 0; i < visitX.size(); i++)
-		{
-			Node dest = { que.front().x + visitX[i], que.front().y + visitY[i], que.front().cnt + 1 };
-
-			if (dest.x < 0 || dest.y < 0 || dest.x >= maps[0].size() || dest.y >= maps.size()) continue;
-			if (visit[dest.x][dest.y]) continue;
-			if (maps[dest.y][dest.x] == 0) continue;
-
-
-			if (dest.x == maps[0].size() - 1 && dest.y == maps.size() - 1)
-				return dest.cnt;
-
-			que.push(dest);
-			visit[dest.x][dest.y] = true;
-		}
+		Node pos = que.front();
 		que.pop();
+
+		if (pos.x == Maps[0].size() - 1 && pos.y == Maps.size() - 1)
+		{
+			result = min(result, pos.cnt+1);
+		}
+
+		for (int i = 0; i < 4; i++)
+		{
+			int x = pos.x + moveX[i];
+			int y = pos.y + moveY[i];
+
+			if (x < 0 || y < 0 || x >= Maps[0].size() || y >= Maps.size()) continue;
+			if (Maps[x][y] == 0) continue;
+			if (visit[x][y]) continue;
+
+			visit[x][y] = true;
+			que.push({ x, y, pos.cnt + 1 });
+		}
 	}
-	return -1;
+
 }
 
-//int main()
-//{
-//	vector<vector<int>> maps = { {1, 0, 1, 1, 1}, { 1, 0, 1, 0, 1 }, { 1, 0, 1, 1, 1 }, { 1, 1, 1, 0, 1 }, { 0, 0, 0, 0, 1 }};
-//
-//	solution(maps);
-//}
+int solution(vector<vector<int> > maps)
+{
+	Maps = maps;
+
+	BFS({ 0,0,0 });
+
+	return result == MAX ? -1 : result;
+}
+
+int main()
+{
+	vector<vector<int> > maps = { {1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1} };
+	cout << solution(maps);
+}
