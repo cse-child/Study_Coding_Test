@@ -40,6 +40,7 @@
     <ClCompile Include="Backjoon\골드\2293_동전_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Backjoon\브론즈\10807_개수_세기.cpp" />
     <ClCompile Include="Backjoon\정리\11054_가장_긴_바이토닉_부분_수열.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -565,7 +566,9 @@
     <ClCompile Include="Programmers\Level1\추억_점수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level1\카드_뭉치.cpp" />
+    <ClCompile Include="Programmers\Level1\카드_뭉치.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Programmers\Level1\푸드_파이트_대회.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -587,7 +590,9 @@
     <ClCompile Include="Programmers\Level2\더_맵게.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\피로도.cpp" />
+    <ClCompile Include="Programmers\못품\피로도.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Programmers\못품\주식가격.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

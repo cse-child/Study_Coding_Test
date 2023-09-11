@@ -798,7 +798,10 @@
     <ClCompile Include="Programmers\Level1\카드_뭉치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\피로도.cpp">
+    <ClCompile Include="Backjoon\브론즈\10807_개수_세기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\못품\피로도.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
