@@ -813,7 +813,10 @@
     <ClCompile Include="Programmers\Level2\모음사전.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\못품\섬_연결하기.cpp">
+    <ClCompile Include="Backjoon\골드\14502_연구소.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\골드\10026_적록색약.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
