@@ -846,6 +846,9 @@
     <ClCompile Include="Programmers\Level2\[1차]_뉴스_클러스터링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\다리를_지나는_트럭.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
