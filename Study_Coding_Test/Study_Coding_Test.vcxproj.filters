@@ -756,12 +756,6 @@
     <ClCompile Include="Programmers\Level2\피보나치_수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\못품\숫자_변환하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Programmers\못품\조이스틱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Backjoon\정리\11054_가장_긴_바이토닉_부분_수열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -792,7 +786,7 @@
     <ClCompile Include="Programmers\Level1\명예의_전당_(1).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\못품\주식가격.cpp">
+    <ClCompile Include="Programmers\푸는중\주식가격.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\Level1\카드_뭉치.cpp">
