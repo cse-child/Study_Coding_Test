@@ -786,9 +786,6 @@
     <ClCompile Include="Programmers\Level1\명예의_전당_(1).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Programmers\푸는중\주식가격.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level1\카드_뭉치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -847,6 +844,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\Level2\쿼드압축_후_개수_세기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Backjoon\골드\1922_네트워크_연결.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\주식가격.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
