@@ -5,42 +5,34 @@
 
 using namespace std;
 
-int N, M;
-int arr[9];
-bool check[9];
-
-void DFS(vector<int>& nums, int num, int start)
-{
-	if (num == M)
-	{
-		for (int i = 0; i < M; i++)
-			cout << arr[i] << ' ';
-		cout << '\n';
-		return;
-	}
-
-	for (int i = start; i < N; i++)
-	{
-		if(!check)
-		{
-			arr[num] = nums[i];
-			DFS(nums, num + 1, i + 1);
-		}
-	}
-}
-
 int main()
 {
-	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+	int a = 100;
 
-	cin >> N >> M;
-	vector<int> nums(N);
-	for (int& num : nums)
-		cin >> num;
+	cout << a << endl;
+	int* ptr1;
+	ptr1 = reinterpret_cast<int*>(a);
 
-	sort(nums.begin(), nums.end());
+	cout << ptr1 << endl; // 16Áø¼ö
 
-	DFS(nums, 0, 0);
+	int arr[3] = { 1,2,3 };
+	void* temp = arr + 1;
+	unsigned int val = reinterpret_cast<unsigned int>(temp);
+	cout << endl << val << endl;
+
+	int ttemp1 = 150;
+	float& ttemp2 = reinterpret_cast<float&>(ttemp1);
+	cout << endl << ttemp2 << endl;
+
+	char c = '1';
+	int* intptr = reinterpret_cast<int*>(c);
+	cout << endl << intptr << endl;
+
+	int* pp = new int(100);
+	char cc = reinterpret_cast<char>(pp);
+	
+	cout << endl << pp << endl;
+	cout << cc << endl;
 
 	return 0;
 }
