@@ -637,7 +637,9 @@
     <ClCompile Include="Programmers\Level2\영어_끝말잇기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Programmers\Level2\점프와_순간_이동.cpp" />
+    <ClCompile Include="Programmers\Level1\소수_만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Programmers\Level2\쿼드압축_후_개수_세기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
