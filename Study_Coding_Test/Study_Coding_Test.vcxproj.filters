@@ -294,9 +294,6 @@
     <ClCompile Include="Programmers\Level2\카펫.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Priority_Queue.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level2\더_맵게.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -315,9 +312,6 @@
     <ClCompile Include="Programmers\Level2\구명보트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Eratosthenes_Sieve.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level2\소수_찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -330,16 +324,7 @@
     <ClCompile Include="Programmers\Level2\숫자의_표현.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearch.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level3\입국심사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra_PriorityQueue.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\2563_색종이.cpp">
@@ -463,9 +448,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\1927_최소_힙.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Heap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\11279_최대_힙.cpp">
@@ -861,7 +843,52 @@
     <ClCompile Include="Programmers\Level2\멀리_뛰기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Sort.cpp">
+    <ClCompile Include="Algorithm\BinarySearch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Dijkstra.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Dijkstra_PriorityQueue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Eratosthenes_Sieve.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Heap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Priority_Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Sort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\prac_9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
