@@ -1,26 +1,23 @@
 #include<iostream>
 using namespace std;
 
-class Point {
-public:
-	Point() { cout << "Normal Constructor called\n"; }
-	Point(const Point &t) { cout << "Copy constructor called\n"; }
-};
-
 int main()
 {
-	Point *t1, *t2; // 생성자 호출 X
-	t1 = new Point(); // 기본생성자 Normal 호출
-	t2 = new Point(*t1); // 복사생성자 Copy 호출
-	Point t3 = *t1; // 복사생성자 Copy 호출
-	Point t4; // 기본생성자 Normal 호출
-	t4 = t3; // 대입연산자 호출되어야 하는데 만들어놓은 함수가 없어서 출력 X
-
-	// 출력 결과
-	//Normal Constructor called
-	//Copy constructor called
-	//Copy constructor called
-	//Normal Constructor called
-
+	int x = 10;
+	int& ref = x;
+	ref = 20;
+	cout << "x = " << x << endl;
+	x = 30;
+	cout << "ref = " << ref << endl;
 	return 0;
 }
+
+/*
+
+결과
+x = 20
+ref = 30
+
+ref 변수가 x를 참조한 순간, 둘 중 하나를 변경하면 다른 항목도 변경된다.
+ 
+ */
