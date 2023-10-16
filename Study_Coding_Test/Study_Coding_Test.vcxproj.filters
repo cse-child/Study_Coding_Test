@@ -906,18 +906,6 @@
     <ClCompile Include="C++Study\생성자\prac_11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\prac_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C++Study\prac_2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C++Study\prac_3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C++Study\prac_4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level2\할인_행사.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -943,6 +931,30 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\1654_랜선_자르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\참조\prac_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\참조\prac_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\참조\prac_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\참조\prac_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\Object_Slicing_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\Object_Slicing_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++Study\Object_Slicing_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level4\도둑질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
