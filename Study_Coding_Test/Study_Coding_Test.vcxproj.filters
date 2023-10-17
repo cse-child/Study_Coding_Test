@@ -957,12 +957,12 @@
     <ClCompile Include="Programmers\Level4\도둑질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="HackerRank\Super_Reduced_String.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="HackerRank\Framework.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
