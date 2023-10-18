@@ -745,6 +745,7 @@
     <ClCompile Include="Programmers\Level2\할인_행사.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level3\기둥과_보_설치.cpp" />
     <ClCompile Include="Programmers\Level3\등굣길.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
