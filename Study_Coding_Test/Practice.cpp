@@ -2,37 +2,33 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <list>
+#include <queue>
 
 using namespace std;
 
+int dp[101][101];
+
 int main()
 {
-	int a = 100;
+	int N, K;
+	cin >> N >> K;
 
-	cout << a << endl;
-	int* ptr1;
-	ptr1 = reinterpret_cast<int*>(a);
+	vector<int> weight(N);
+	vector<int> value(N);
+	for(int i = 0; i < N; i++)
+		cin >> weight[i] >> value[i];
 
-	cout << ptr1 << endl; // 16Áø¼ö
+	for(int i = 0; i < N; i++)
+	{
+		for(int j = weight[i]; j < N; j++)
+		{
+			
+		}
+	}
 
-	int arr[3] = { 1,2,3 };
-	void* temp = arr + 1;
-	unsigned int val = reinterpret_cast<unsigned int>(temp);
-	cout << endl << val << endl;
 
-	int ttemp1 = 150;
-	float& ttemp2 = reinterpret_cast<float&>(ttemp1);
-	cout << endl << ttemp2 << endl;
 
-	char c = '1';
-	int* intptr = reinterpret_cast<int*>(c);
-	cout << endl << intptr << endl;
-
-	int* pp = new int(100);
-	char cc = reinterpret_cast<char>(pp);
-	
-	cout << endl << pp << endl;
-	cout << cc << endl;
 
 	return 0;
 }
