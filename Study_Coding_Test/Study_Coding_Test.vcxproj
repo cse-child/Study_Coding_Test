@@ -484,6 +484,7 @@
     <ClCompile Include="C++Study\Object_Slicing_3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C++Study\vector_push_emplace.cpp" />
     <ClCompile Include="C++Study\참조\prac_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
