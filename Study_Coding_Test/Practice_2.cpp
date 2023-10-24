@@ -1,18 +1,13 @@
 #include <iostream>
 #include <list>
 #include <queue>
+#include <stack>
 
 using namespace  std;
 
-int main()
-{
-	list<int> listt;
-	listt.push_back(1);
-	listt.push_back(2);
+int minimumMovement(vector<int> obstacleLanes) {
+	int answer = 0;
 
-	queue<int> queuee;
-	deque<int> dequee;
-	dequee.push_back(1);
 
-	return 0;
+	return answer;
 }

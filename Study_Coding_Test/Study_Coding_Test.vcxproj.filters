@@ -798,15 +798,6 @@
     <ClCompile Include="Programmers\Level2\롤케이크_자르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\프로그래머스_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NoUpload\프로그래머스_2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NoUpload\프로그래머스_3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Programmers\Level3\섬_연결하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -978,22 +969,34 @@
     <ClCompile Include="prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_1.cpp">
+    <ClCompile Include="C++Study\vector_push_emplace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_2.cpp">
+    <ClCompile Include="NoUpload\01\프로그래머스_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_3.cpp">
+    <ClCompile Include="NoUpload\01\프로그래머스_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_4.cpp">
+    <ClCompile Include="NoUpload\01\프로그래머스_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_5.cpp">
+    <ClCompile Include="NoUpload\02\N_6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NoUpload\N_6.cpp">
+    <ClCompile Include="NoUpload\02\N_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\02\N_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\02\N_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\02\N_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\02\N_5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
