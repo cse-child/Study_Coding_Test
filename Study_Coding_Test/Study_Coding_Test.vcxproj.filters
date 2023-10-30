@@ -936,13 +936,13 @@
     <ClCompile Include="C++Study\참조\prac_4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\오브젝트_슬라이싱\Object_Slicing_1.cpp">
+    <ClCompile Include="C++Study\Object_Slicing_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\오브젝트_슬라이싱\Object_Slicing_2.cpp">
+    <ClCompile Include="C++Study\Object_Slicing_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\오브젝트_슬라이싱\Object_Slicing_3.cpp">
+    <ClCompile Include="C++Study\Object_Slicing_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Programmers\Level4\도둑질.cpp">
