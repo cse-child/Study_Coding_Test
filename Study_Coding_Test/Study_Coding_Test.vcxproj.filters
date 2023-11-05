@@ -969,7 +969,7 @@
     <ClCompile Include="prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\vector_push_emplace.cpp">
+    <ClCompile Include="C++Study\STL_vector\vector_push_emplace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="NoUpload\01\프로그래머스_1.cpp">
@@ -1008,7 +1008,7 @@
     <ClCompile Include="C++Study\가상함수\Virtual_Function_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\Template.cpp">
+    <ClCompile Include="C++Study\템플릿\Template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\9184_신나는_함수_실행.cpp">
