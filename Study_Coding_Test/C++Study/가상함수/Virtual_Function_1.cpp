@@ -9,6 +9,8 @@ public:
 	{
 		cout << "Call A Print" << endl;
 	}
+
+	virtual ~A(){}
 };
 
 class B
@@ -18,10 +20,14 @@ public:
 	{
 		cout << "Call B Print" << endl;
 	}
+
+	virtual ~B(){}
 };
 
 class C : public A, public B
 {
+public:
+	~C(){}
 };
 
 int main()
