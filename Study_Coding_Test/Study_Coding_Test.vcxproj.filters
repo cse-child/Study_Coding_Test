@@ -1053,7 +1053,7 @@
     <ClCompile Include="Backjoon\실버\1904_01타일.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\vector_resize.cpp">
+    <ClCompile Include="C++Study\STL_vector\vector_resize.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Backjoon\실버\14916_거스름돈.cpp">
