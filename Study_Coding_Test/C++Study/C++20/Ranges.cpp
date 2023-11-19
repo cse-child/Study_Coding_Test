@@ -6,9 +6,16 @@
 
 int main()
 {
-	std::vector<int> v = { 1,2,3,4,5,6,7,8,9,10 };
-	auto r = v | std::views::filter([](int a) { return a % 2 == 0; })
-				| std::views::take(3);
+	std::vector<int> v = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	auto rng = std::ranges::views::all(v)
+		| std::ranges::views::filter([](int a) {
+		return a % 2 == 0; }); // 짝수만 필터링
+
+	std::cout << rng << std::endl; // [2,4,6,8,10]
+
+	// 원본은 수정되지 않음.
+	auto orinRange = std::ranges::views::all(v);
+	std::cout << orinRange << std::endl; // [1,2,3,4,5,6,7,8,9,10]
 
 	for (auto n : r)
 		std::cout << n << " "; // 2 4 6
