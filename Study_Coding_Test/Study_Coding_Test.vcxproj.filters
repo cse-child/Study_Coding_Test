@@ -1083,6 +1083,15 @@
     <ClCompile Include="Backjoon\실버\9372_상근이의_여행.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NoUpload\03\code_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\03\code_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NoUpload\03\code_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
