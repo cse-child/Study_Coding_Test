@@ -1092,13 +1092,13 @@
     <ClCompile Include="NoUpload\03\code_4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\Thread.cpp">
+    <ClCompile Include="C++Study\쓰레드\Thread.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\Thread_2.cpp">
+    <ClCompile Include="C++Study\쓰레드\Thread_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="C++Study\Thread_3.cpp">
+    <ClCompile Include="C++Study\쓰레드\Thread_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
