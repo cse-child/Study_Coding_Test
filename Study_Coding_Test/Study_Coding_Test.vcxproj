@@ -821,6 +821,7 @@
     <ClCompile Include="Programmers\Level2\[3차]_파일명_정렬.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\ㅁ_숫자_변환하기.cpp" />
     <ClCompile Include="Programmers\Level2\구명보트.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
