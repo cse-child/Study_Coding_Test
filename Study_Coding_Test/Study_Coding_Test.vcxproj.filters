@@ -1110,6 +1110,9 @@
     <ClCompile Include="Programmers\Level2\ㅁ_숫자_변환하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\ㅁ_연속_부분_수열_합의_개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank\Jumping_on_the_Clouds.cpp">
